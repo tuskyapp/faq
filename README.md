@@ -8,11 +8,11 @@ Which will include some experimentation with tools to write this FAQ and sync it
 
 
 **Q:** Why doesn't Tusky support push notifications?
-**A:** 
+**A:** Pushing to devices would require us to use proprietary Google libraries and to run a relay server. Since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google we decided not to implement push notifications at this time. We are researching other possibilities to make notifications faster though.
 
 
-**Q:**
-**A:**
+**Q:** Will my filters import from my instance?
+**A:** They will, but not until after v3
 
 Template:
   
@@ -21,5 +21,5 @@ Template:
         **A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyNDI5NjFdfQ==
+eyJoaXN0b3J5IjpbMTUxMTExMjg5OV19
 -->
