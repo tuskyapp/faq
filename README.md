@@ -18,13 +18,12 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **A:** You can either reach out to us directly, or check out the [Github](https://github.com/tuskyapp/Tusky) directly.
 
  **Q:** Can I try out the beta? 
- **A:** You can sign up for the Google Play beta, via this link
+ **A:** You can sign up for the [Google Play beta, via this link](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky), or if you're on F-droid you can get the nightly's 
 
 Template:
 **Q:**
 **A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM1ODMwNDMsLTE4MjczMjI3MjldfQ
-==
+eyJoaXN0b3J5IjpbLTc1MjI0NTIwMywtMTgyNzMyMjcyOV19
 -->
