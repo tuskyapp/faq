@@ -3,9 +3,9 @@
 Which will include some experimentation with tools to write this FAQ and sync it with GitHub, by @mal0ki (current tool is StackEdit).
 
 ## FAQ
-**Question:** When will Tusky be avaialble on F-droid?
+**Question:** When will Tusky be available on F-Droid?
 
-**Answer:** Fdroid works differently than Amazon Appstore or Google Play. We as the developers do not upload anything, Fdroid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also takes some time on their side.
+**Answer:** F-Droid works differently than Amazon Appstore or Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also takes some time on their side.
 
 ##
 **Q:** Why doesn't Tusky support push notifications?
@@ -15,7 +15,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 
 **Q:** Will my filters import from my instance?
 
-**A:** They will, but not until after version 3.
+**A:** They will, but not until after version 3. You can use Tuskys tab filters in the meantime.
 ##
 
 **Q:** I want to help out, what can I do?
@@ -30,7 +30,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 
 **Q:** What about Nightly releases?
 
-**A:** You can [follow this repo.](https://releases.nailyk.fr/repo/)
+**A:** The Tusky nightly is [available on Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky.test) as well. On F-Droid, [add this repo](https://releases.nailyk.fr/repo/).
 ##
 
 **Q:** The likes and boosts aren't displaying the same numbers as on the web?
