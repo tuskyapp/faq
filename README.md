@@ -37,8 +37,8 @@ Which will include some experimentation with tools to write this FAQ and sync it
 
 **A:** This is not a Tusky bug, it's because boosts and likes do not federate perfectly. I.e., if you and the user whom you see this on, are not on the same server you will see different numbers on Tusky and on their message on the web.
 ##
-**Q:**
-**A:**
+**Q:** How do I remove an account from Tusky?
+**A:** Just select the account, then log out.
 
 **Q:**
 **A:**
