@@ -12,14 +12,17 @@ Which will include some experimentation with tools to write this FAQ and sync it
 
 
 **Q:** Will my filters import from my instance?
-**A:** They will, but not until after v3
+**A:** They will, but not until after version 3.
+
+**Q:**
+**A:**
 
 Template:
   
 
-      **Q:**
-        **A:**
+     **Q:**
+     **A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTExMjg5OV19
+eyJoaXN0b3J5IjpbLTE4MjczMjI3MjldfQ==
 -->
