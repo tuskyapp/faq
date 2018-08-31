@@ -21,6 +21,8 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** What about Nightly releases?
 **A:** You can [follow this repo.](https://releases.nailyk.fr/repo/)
 
+**Q:** The likes and boosts aren't displaying the same numbers as on the web?
+**A:** This is not a Tusky bug, it's because boosts and likes do not federate perfectly. I.e., if you and the user whom you see this on, are not on the same server you will see different num
 
 
 Template:
@@ -28,6 +30,6 @@ Template:
 **A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNTEwMjk4LC0yMTA3OTM0MTgsLTc1Mj
-I0NTIwMywtMTgyNzMyMjcyOV19
+eyJoaXN0b3J5IjpbLTE0MjIwMzIwMzcsLTIxMDc5MzQxOCwtNz
+UyMjQ1MjAzLC0xODI3MzIyNzI5XX0=
 -->
