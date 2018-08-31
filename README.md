@@ -14,8 +14,11 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** Will my filters import from my instance?
 **A:** They will, but not until after version 3.
 
-**Q:**
-**A:**
+**Q:** I want to help out, what can I do?
+**A:** You can either reach out to us directly, or check out the [Github](https://github.com/tuskyapp/Tusky) directly
+
+ **Q:**
+ **A:**
 
 Template:
   
@@ -24,5 +27,5 @@ Template:
      **A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjczMjI3MjldfQ==
+eyJoaXN0b3J5IjpbLTYwMzQxOTc2NywtMTgyNzMyMjcyOV19
 -->
