@@ -15,17 +15,16 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **A:** They will, but not until after version 3.
 
 **Q:** I want to help out, what can I do?
-**A:** You can either reach out to us directly, or check out the [Github](https://github.com/tuskyapp/Tusky) directly
+**A:** You can either reach out to us directly, or check out the [Github](https://github.com/tuskyapp/Tusky) directly.
 
- **Q:**
- **A:**
+ **Q:** Can I try out the beta? 
+ **A:** You can sign up for the Google Play beta, via this link
 
 Template:
-  
-
-     **Q:**
-     **A:**
+**Q:**
+**A:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzQxOTc2NywtMTgyNzMyMjcyOV19
+eyJoaXN0b3J5IjpbLTEyNTM1ODMwNDMsLTE4MjczMjI3MjldfQ
+==
 -->
