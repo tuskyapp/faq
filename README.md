@@ -49,6 +49,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 ##
 
 **Q:** Is this censorship/against free speech etc.? 
+
 **A:** No because of three reasons, 1, hate against marginalised groups is not an opinion; 2, Gab can still be accessed by other means and Tusky can be forked; 3, Tusky is no government, so it cannot take away your basic rights.
 ##
 
