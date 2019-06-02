@@ -40,6 +40,15 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** How do I remove an account from Tusky?
 **A:** Just select the account, then log out.
 
+**Q:** Will you block more domains than the Gab related ones?
+**A:** The size of Gab is pretty unique and we have no time to research smaller instances, so most likely no, but it's always a possibility.
+
+**Q:** Is this censorship/against free speech etc.? 
+**A:** No because of three reasons, 1, hate against marginalised groups is not an opinion; 2, Gab can still be accessed by other means and Tusky can be forked; 3, Tusky is no government, so it cannot take away your basic rights.
+
+**Q:**
+**A:**
+
 **Q:**
 **A:**
 
