@@ -43,6 +43,11 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **A:** Just select the account, then log out.
 ##
 
+**Q:** My instance has a custom character limit, but Tusky allows only 500 characters
+
+**A:** Your instance needs to make this information public via the `max_toot_chars` property of the `/api/v1/instance` endpoint. Contact your admin to change this. See e.g. here https://pleroma.site/api/v1/instance for a config that works with Tusky.
+##
+
 **Q:** Will you block more domains than the Gab related ones?
 
 **A:** The size of Gab is pretty unique and we have no time to research smaller instances, so most likely no, but it's always a possibility.
@@ -51,10 +56,6 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** Is this censorship/against free speech etc.? 
 
 **A:** No because of three reasons, 1, hate against marginalised groups is not an opinion; 2, Gab can still be accessed by other means and Tusky can be forked; 3, Tusky is no government, so it cannot take away your basic rights.
-##
-
-**Q:**
-**A:**
 ##
 
 **Q:**
