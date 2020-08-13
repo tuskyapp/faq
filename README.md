@@ -5,7 +5,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 ## FAQ
 **Question:** When will Tusky be available on F-Droid?
 
-**Answer:** F-Droid works differently than Amazon Appstore or Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also means it takes longer for releases to be available.
+**Answer:** F-Droid works differently than Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also means it takes longer for releases to be available.
 
 ##
 **Q:** Why doesn't Tusky support push notifications?
@@ -16,6 +16,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** Will my filters import from my instance?
 
 **A:** Yes. Filters will sync in both directions between Tusky and your instance.
+##
 
 **Q:** I want to help out, what can I do?
 
