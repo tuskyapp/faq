@@ -63,6 +63,10 @@ And don't forget to tell your friends about Tusky!
 **A:** Because the official app includes some non-free components, and is missing some key features like bookmarks.
 ##
 
+**Q:** How do I send a direct message?
+**A:** Create a toot, mention the user and set the visibility (World icon) to Direct.
+##
+
 Template:
 **Q:**
 **A:**
