@@ -59,6 +59,10 @@ And don't forget to tell your friends about Tusky!
 **A:** No because of three reasons, 1, hate against marginalised groups is not an opinion; 2, Gab can still be accessed by other means and Tusky can be forked; 3, Tusky is no government, so it cannot take away your basic rights.
 ##
 
+**Q:** Why another Android app when there's also an official Mastodon Android app?
+**A:** Because the official app includes some non-free components, and is missing some key features like bookmarks.
+##
+
 **Q:** How do I send a direct message?
 **A:** Create a toot, mention the user and set the visibility (World icon) to Direct.
 ##
