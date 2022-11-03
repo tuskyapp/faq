@@ -3,14 +3,14 @@
 Which will include some experimentation with tools to write this FAQ and sync it with GitHub, by @mal0ki (current tool is StackEdit).
 
 ## FAQ
-**Question:** When will Tusky be available on F-Droid?
+**Question:** When will the latest version of Tusky be available on F-Droid?
 
 **Answer:** F-Droid works differently than Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also means it takes longer for releases to be available.
 
 ##
-**Q:** Why doesn't Tusky support push notifications?
+**Q:** Why didn't Tusky support push notifications?
 
-**A:** Pushing to devices would require us to use proprietary Google libraries and to run a relay server. Since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google we decided not to implement push notifications at this time. We are researching other possibilities to make notifications faster though.
+**A:** Pushing to devices would require us to use proprietary Google libraries and to run a relay server. Since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google we decided not to implement push notifications previously. We have now found a solution that works for us without compromising our principles.
 ##
 
 **Q:** Will my filters import from my instance?
@@ -21,7 +21,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Q:** I want to help out, what can I do?
 
 **A:** You can help translating Tusky into your language on our [Weblate instance](https://weblate.tusky.app/) and report bugs or even send us fixes on the [main GitHub repo](https://github.com/tuskyapp/Tusky). If you plan to contribute bigger changes, please contact us first.
-And don't forget to tell your friends about Tusky!
+And don't forget to tell your friends about Tusky! You can also donate to us through Open Collective.
 ##
 
  **Q:** Can I try out the beta? 
