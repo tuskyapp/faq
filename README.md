@@ -8,9 +8,9 @@ Which will include some experimentation with tools to write this FAQ and sync it
 **Answer:** F-Droid works differently than Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also means it takes longer for releases to be available.
 
 ##
-**Q:** Why didn't Tusky support push notifications?
+**Q:** How does Tusky support push notifications?
 
-**A:** Pushing to devices would require us to use proprietary Google libraries and to run a relay server. Since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google we decided not to implement push notifications previously. We have now found a solution that works for us without compromising our principles.
+**A:** We use Unified Push to avoid proprietary Google libraries, since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google.
 ##
 
 **Q:** Will my filters import from my instance?
