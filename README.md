@@ -10,7 +10,7 @@ Which will include some experimentation with tools to write this FAQ and sync it
 ##
 **Q:** How does Tusky support push notifications?
 
-**A:** We use Unified Push to avoid proprietary Google libraries, since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google.
+**A:** We use [Unified Push](https://unifiedpush.org/) to avoid proprietary Google libraries, since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google.
 ##
 
 **Q:** Will my filters import from my instance?
