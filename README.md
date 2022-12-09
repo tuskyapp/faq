@@ -24,9 +24,9 @@ Which will include some experimentation with tools to write this FAQ and sync it
 And don't forget to tell your friends about Tusky! You can also donate to us through Open Collective.
 ##
 
- **Q:** Can I try out the beta? 
+**Q:** Can I try out the beta? 
 
- **A:** You can sign up for the [Google Play beta, via this link](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
+**A:** You can sign up for the [Google Play beta, via this link](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
 ##
 
 **Q:** What about Nightly releases?
@@ -60,15 +60,18 @@ And don't forget to tell your friends about Tusky! You can also donate to us thr
 ##
 
 **Q:** Why another Android app when there's also an official Mastodon Android app?
+
 **A:** Because the official app includes some non-free components, and is missing some key features like bookmarks.
 ##
 
 **Q:** How do I send a direct message?
+
 **A:** Create a toot, mention the user and set the visibility (World icon) to Direct.
 ##
 
 Template:
 **Q:**
+
 **A:**
 ##
 
