@@ -14,7 +14,7 @@ There are three different releases of Tusky.
 
 You can install Tusky from Google Play or from F-Droid.
 
-The mainstream release can be installed from:
+To do that:
 
 - Install [Tusky from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
 - Install [Tusky from F-Droid](https://f-droid.org/packages/com.keylesspalace.tusky/)
