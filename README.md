@@ -119,7 +119,10 @@ You can contact them and say:
 
 > Important: Direct messages on Mastodon are not encrypted, and can be read by the admins of your instance. Be careful sharing any private information on Mastodon.
 
-Create a new post, @-mention the user you want to send it to, then tap the "visibilty" icon (by default this looks like a globe) and set the post's visibility to "Direct".
+- Create a new post
+- @-mention the user you want to send it to
+- Tap the "visibilty" icon (by default this looks like a globe)
+- Set the post's visibility to "Direct"
 
 ## Notifications
 
