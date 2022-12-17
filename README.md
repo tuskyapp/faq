@@ -26,7 +26,7 @@ The beta release is only available from Google Play. You must opt-in to the beta
 Nightly releases are available on Google Play and F-Droid:
 
 - Install [Tusky Nightly from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky.test)
-- In the F-Droid settings, select My Apps > Repositories, and add a new repository with the link `https://releases.nailyk.fr/repo/`
+- In the F-Droid settings, select "My Apps > Repositories", and add a new repository with the link `https://releases.nailyk.fr/repo/`
 
 ### Why is the Tusky release on F-Droid out of date?
 
