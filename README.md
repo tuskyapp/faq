@@ -71,7 +71,7 @@ You can adjust the order of tabs on this screen too.
 
 ### How do I hide boosted posts from my timeline?
 
-- Open Preferences
+- Open "Preferences" (swipe from the left edge, or tap your profile picture to see the option)
 - Tap the "Filters > Tabs" section
 - Unselect the "Boosts" option
 
