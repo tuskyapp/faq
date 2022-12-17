@@ -1,79 +1,196 @@
-## This is a WIP FAQ for Tusky | Frequently asked questions about the Tusky Mastodon client
+# Tusky Frequently Asked Questions
 
-Which will include some experimentation with tools to write this FAQ and sync it with GitHub, by @mal0ki (current tool is StackEdit).
+## Installing Tusky
 
-## FAQ
-**Question:** When will the latest version of Tusky be available on F-Droid?
+### What Tusky release should I use?
 
-**Answer:** F-Droid works differently than Google Play. We as the developers do not upload anything, F-Droid builds the app from source once we tag a release in our code repository. This is super awesome because you are guaranteed to get the exact code from our repo, but also means it takes longer for releases to be available.
+There are three different releases of Tusky.
 
-##
-**Q:** How does Tusky support push notifications?
+- The mainstream release. Unless you've been told otherwise, this is what you want
+- Beta releases. These are released to testers before every mainstream release. 
+- Nightly releases. These are released every night
 
-**A:** We use [Unified Push](https://unifiedpush.org/) to avoid proprietary Google libraries, since we want Tusky to be pure FOSS (free and open-source software) and don't want to send any data to Google.
-##
+### Where can I get Tusky?
 
-**Q:** Will my filters import from my instance?
+You can install Tusky from Google Play or from F-Droid.
 
-**A:** Yes. Filters will sync in both directions between Tusky and your instance.
-##
+The mainstream release can be installed from:
 
-**Q:** I want to help out, what can I do?
+- Install [Tusky from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
+- Install [Tusky from F-Droid](https://f-droid.org/packages/com.keylesspalace.tusky/)
 
-**A:** You can help translating Tusky into your language on our [Weblate instance](https://weblate.tusky.app/) and report bugs or even send us fixes on the [main GitHub repo](https://github.com/tuskyapp/Tusky). If you plan to contribute bigger changes, please contact us first.
-And don't forget to tell your friends about Tusky! You can also donate to us through Open Collective.
-##
+The beta release is only available from Google Play. You must opt-in to the beta programme.
 
-**Q:** Can I try out the beta? 
+- Opt-in to [Tusky Beta on Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
 
-**A:** You can sign up for the [Google Play beta, via this link](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
-##
+Nightly releases are available on Google Play and F-Droid:
 
-**Q:** What about Nightly releases?
+- Install [Tusky Nightly from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky.test)
+- In the F-Droid settings, select My Apps > Repositories, and add a new repository with the link `https://releases.nailyk.fr/repo/`
 
-**A:** The Tusky nightly is [available on Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky.test) as well. On F-Droid, [add this repo](https://releases.nailyk.fr/repo/).
-##
+### Why is the Tusky release on F-Droid out of date?
 
-**Q:** The likes and boosts aren't displaying the same numbers as on the web?
+F-Droid builds Tusky from the source code when a new release is made available. This can take longer than it takes for the new release to available on Google Play.
 
-**A:** This is not a Tusky bug, it's because boosts and likes do not federate perfectly. I.e., if you and the user whom you see this on, are not on the same server you will see different numbers on Tusky and on their message on the web.
-##
+## Managing my account
 
-**Q:** How do I remove an account from Tusky?
+### Can I create an account with Tusky?
 
-**A:** Just select the account, then log out.
-##
+Not yet, you must create an account via a service like https://joinmastodon.org/ first.
 
-**Q:** My instance has a custom character limit, but Tusky allows only 500 characters
+Once you have done this you can then log in to the account in Tusky.
 
-**A:** Your instance needs to make this information public via the `max_toot_chars` property of the `/api/v1/instance` endpoint. Contact your admin to change this. See e.g. here https://pleroma.site/api/v1/instance for a config that works with Tusky.
-##
+### Can I remove my account with Tusky?
 
-**Q:** Will you block more domains than the Gab related ones?
+You can sign out of your account with Tusky. But you will need to follow your instance's procedure to fully delete your account.
 
-**A:** The size of Gab is pretty unique and we have no time to research smaller instances, so most likely no, but it's always a possibility.
-##
+### I'm trying to log in to my account, and am being rick-rolled. Why?
 
-**Q:** Is this censorship/against free speech etc.? 
+Tusky does not support usage by accounts on some [servers](https://github.com/tuskyapp/Tusky/blob/develop/app/src/main/res/values/donottranslate.xml#L160) because of their association with hate groups.
 
-**A:** No because of three reasons, 1, hate against marginalised groups is not an opinion; 2, Gab can still be accessed by other means and Tusky can be forked; 3, Tusky is no government, so it cannot take away your basic rights.
-##
+> A server not being on this list does *not* imply endorsement by the Tusky developers.
 
-**Q:** Why another Android app when there's also an official Mastodon Android app?
+If this offends you you are free to use another Mastodon client.
 
-**A:** Because the official app includes some non-free components, and is missing some key features like bookmarks.
-##
+## Timelines
 
-**Q:** How do I send a direct message?
+### Why is the count of likes and boosts different to the web?
 
-**A:** Create a toot, mention the user and set the visibility (World icon) to Direct.
-##
+This is because of how Mastodon works. Likes and boosts do not federate perfectly; if you and the other user are on different servers you will see different numbers between Tusky and the website.
 
-Template:
-**Q:**
+### How do I see the Federated timeline?
 
-**A:**
-##
+From your home timeline:
+
+- Open "Account Preferences" (swipe from the left edge, or tap your profile picture to see the option)
+- Tap "Tabs"
+- Tap the "+" button (bottom right)
+- Choose "Federated" from the menu
+
+You can adjust the order of tabs on this screen too.
+
+### How do I hide boosted posts from my timeline?
+
+- Open Preferences
+- Tap the "Filters > Tabs" section
+- Unselect the "Boosts" option
+
+### How do I hide replies to posts from my timeline?
+
+- Open Preferences
+- Tap the "Filters > Tabs" section
+- Unselect the "Replies" option
+
+### How do I follow a hashtag?
+
+- Tap the hashtag in a post to view all posts with this hashtag
+- Tap the "follow" icon at the top right
+
+### How do I mute a hashtag?
+
+> This feature is available in Tusky 21 or above (including Nightly). To check the Tusky version you are using open the "About" menu.
+
+- Tap the hashtag in a post to view all posts with this hashtag
+- Tap the "mute" icon at the top right
+
+## Posting
+
+### How do I edit a post?
+
+> This feature is only available in Tusky 21 or above (including Nightly). To check the Tusky version you are using open the "About" menu.
+
+Find the post you want to edit, then:
+
+- Tap the "..." menu at the bottom-right of the post
+- Choose "Edit"
+- Tap "Toot" to send the edited post (replacing the original)
+
+### Why does Tusky only allow 500 characters when my instance has a custom character limit?
+
+Your instance is not configured to report that it supports a custom limit using the Mastodon API.
+
+This is something that your instance admins will need to change for you, Tusky cannot change it.
+
+You can contact them and say:
+
+> The instance is not exporting the `max_toot_chars` property at the `/api/v1/instance` endpoint. See e.g. here https://pleroma.site/api/v1/instance for a config that works with Tusky.
+
+### How do I send a direct message?
+
+> Important: Direct messages on Mastodon are not encrypted, and can be read by the admins of your instance. Be careful sharing any private information on Mastodon.
+
+Create a new post, @-mention the user you want to send it to, then tap the "visibilty" icon (by default this looks like a globe) and set the post's visibility to "Direct".
+
+## Notifications
+
+### Why are notifications less frequent with Tusky?
+
+By default, Tusky checks for new notifications approximately every 15 minutes.
+
+Tusky can also use [Unified Push](https://unifiedpush.org/) to show notifications in real-time. To do this:
+
+- Install "ntfy" (from [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy) or [F-Droid](https://f-droid.org/packages/io.heckel.ntfy)
+
+## Filters
+
+### Will my filters import from my instance?
+
+Yes. Filters will sync in both directions between Tusky and your instance.
+
+## Reporting bugs and making feature requests
+
+### How do I report a bug?
+
+If you think you've seen a bug in Tusky the ideal way to report it is to:
+
+> You will need a Github account to do this.
+
+1. Check that no one else has already reported the bug
+	1. Open the [list of open issues](https://github.com/tuskyapp/Tusky/issues)
+	1. Search the list of issues
+	1. If you find an existing bug report you can leave a comment (if you have extra information to report), or click the "Subscribe" button to be notified when there are other comments on the bug, or when it is closed.
+1. If there are no matching reports then click the "New issue" button to report a new bug.
+	1. You will automatically be notified when there are comments on the bug report, or when it is closed.
+
+The less ideal way to report a bug is to post about it on Mastodon and either mention the Tusky account (`@Tusky@mastodon.social`), or use the `#Tusky` hashtag, and hope that someone sees it.
+
+### How do I make a feature request?
+
+If there is a feature you would like to see added to Tusky the ideal way to report it is to:
+
+> You will need a Github account to do this.
+
+1. Check that no one else has already requested a similar feature
+	1. Open the [list of open issues](https://github.com/tuskyapp/Tusky/issues)
+	1. Search the list of issues
+	1. If you find an existing feature request you can leave a comment (if you have extra suggestions or more information), or click the "Subscribe" button to be notified when there are other comments on the requests, or when it is closed.
+1. If there are no matching requests then click the "New issue" button to suggest the feature.
+	1. You will automatically be notified when there are comments on the feature request, or when it is closed.
+
+The less ideal way to request a feature is to post about it on Mastodon and either mention the Tusky account (`@Tusky@mastodon.social`), or use the `#Tusky` hashtag, and hope that someone sees it.
+
+## Contributing to Tusky
+
+### I want to help out, what can I do?
+
+There are many ways you can help Tusky development.
+
+- Bug reports and feature requests
+- Translations
+- Code and documentation contributions
+- Donations
+
+Well-written bug reports and feature requests help make Tusky better for everyone. The previous sections explains how to report bugs and make feature requests.
+
+If you would like to see Tusky translated in to a language that you speak, or you see a problem with one of the existing translations you can contribute by sending in a fix. We use Weblate to manage translations; you can sign up at the [Tusky Weblate instance](https://weblate.tusky.app/) and submit a new translation, or improve an existing one there.
+
+If you are familiar with Android development you can also send code changes via Github. A great way to start is to search the list of issues for a bug or feature request that is important to you, and start discussing how you want to solve it there. After any discussion you can then write the code and submit a PR with the change.
+
+Financial donations are always welcome, and can be done through the [Tusky open collective project](https://opencollective.com/tusky). There you can sign up and make a one-off or recurring donation to the project.
+
+## How can I contact the developers?
+
+In the [#Tusky](https://matrix.to/#/#Tusky:matrix.org) Matrix channel.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0ODQ3NTQ1NSwtMzUwODUwNTM5LC0yMT
