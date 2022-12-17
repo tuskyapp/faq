@@ -7,7 +7,7 @@
 There are three different releases of Tusky.
 
 - The mainstream release. Unless you've been told otherwise, this is what you want
-- Beta releases. These are released to testers before every mainstream release. 
+- Beta releases. These are released to testers before every mainstream release
 - Nightly releases. These are released every night
 
 ### Where can I get Tusky?
