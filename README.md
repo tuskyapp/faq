@@ -97,7 +97,7 @@ You can adjust the order of tabs on this screen too.
 
 ### How do I edit a post?
 
-> This feature is only available in Tusky 21 or above (including Nightly). To check the Tusky version you are using open the "About" menu.
+> This feature is available in Tusky 21 or above (including Nightly). To check the Tusky version you are using open the "About" menu.
 
 Find the post you want to edit, then:
 
