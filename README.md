@@ -124,6 +124,10 @@ Tusky can also use [Unified Push](https://unifiedpush.org/) to show notification
 
 - Install "ntfy" (from [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy) or [F-Droid](https://f-droid.org/packages/io.heckel.ntfy)
 
+### Why does Tusky use UnifiedPush instead of Google services for notifications?
+
+Google Services don't work on all devices and we want to give users the freedom to chose their push provider.
+
 ## Filters
 
 ### Will my filters import from my instance?
