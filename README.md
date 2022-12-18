@@ -105,16 +105,6 @@ Find the post you want to edit, then:
 - Choose "Edit"
 - Tap "Toot" to send the edited post (replacing the original)
 
-### Why does Tusky only allow 500 characters when my instance has a custom character limit?
-
-Your instance is not configured to report that it supports a custom limit using the Mastodon API.
-
-This is something that your instance admins will need to change for you, Tusky cannot change it.
-
-You can contact them and say:
-
-> The instance is not exporting the `max_toot_chars` property at the `/api/v1/instance` endpoint. See e.g. here https://pleroma.site/api/v1/instance for a config that works with Tusky.
-
 ### How do I send a direct message?
 
 > Important: Direct messages on Mastodon are not encrypted, and can be read by the admins of your instance. Be careful sharing any private information on Mastodon.
