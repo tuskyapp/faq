@@ -120,7 +120,7 @@ Find the post you want to edit, then:
 
 By default, Tusky checks for new notifications approximately every 15 minutes.
 
-Tusky can also use [Unified Push](https://unifiedpush.org/) to show notifications in real-time. To do this:
+Tusky can also use [UnifiedPush](https://unifiedpush.org/) to show notifications in real-time. To do this:
 
 - Install "ntfy" (from [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy) or [F-Droid](https://f-droid.org/packages/io.heckel.ntfy)
 
