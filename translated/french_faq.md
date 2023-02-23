@@ -90,7 +90,7 @@ Vous pouvez ajuster l'ordre des onglets depuis cet écran aussi.
 
 > Cette fonctionnalité est disponible à partir de Tusky 21 (Tusky Nightly inclu). Pour vérifier la version de Tusky que vous utilisez, vous pouvez ouvrir le menu "À propos".
 
-- Appuyez sur le hastage dans un poste pour voir l'ensemble des postes avec ce hashtag
+- Appuyez sur le hashtag dans un poste pour voir l'ensemble des postes avec ce hashtag
 - Appuyez sur l'icone "masquer" en haut à droite
 
 ## Publier
