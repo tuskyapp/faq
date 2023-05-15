@@ -19,11 +19,12 @@ To do that:
 - Install [Tusky from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
 - Install [Tusky from F-Droid](https://f-droid.org/packages/com.keylesspalace.tusky/)
 
-The beta release is only available from Google Play. You must opt-in to the beta programme.
+Before a new stable release, we publish one or more beta releases. If you want to become a beta tester and help us find bugs before they get released to everyone, you can:
 
 - Opt-in to [Tusky Beta on Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)
+- Opt-in to receive unstable releases in F-Droid (Settings -> Expert Mode -> Unstable updates) and you will automatically receive Tusky beta versions if you have it installed via F-Droid.
 
-Test releases are available on Google Play and F-Droid:
+Test releases that always contain our newest code are also available on Google Play and F-Droid:
 
 - Install [Tusky Nightly from Google Play](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky.test)
 - In the F-Droid settings, select "My Apps > Repositories", and add a new repository with the link `https://releases.nailyk.fr/repo/`
