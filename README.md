@@ -47,7 +47,7 @@ You can sign out of your account with Tusky. But you will need to follow your in
 
 ### I'm trying to log in to my account, and am being rick-rolled. Why?
 
-Tusky does not support usage by accounts on some [servers](https://github.com/tuskyapp/Tusky/blob/develop/app/src/main/res/values/donottranslate.xml#L160) because of their association with hate groups.
+Tusky does not support usage by accounts on some [servers](https://github.com/tuskyapp/Tusky/blob/develop/app/src/main/res/values/donottranslate.xml#L165-L170) because of their association with hate groups.
 
 > A server not being on this list does *not* imply endorsement by the Tusky developers.
 
