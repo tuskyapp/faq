@@ -133,7 +133,7 @@ Google Services don't work on all devices and we want to give users the freedom 
 
 ### Why do I see a "Information below may reflect the user's profile incompletely. Press to open full profile in browser." message on user's profiles?
 
-This happens when you are viewing profiles on servers other than your homeserver. Your homeserver can't know all posts of all users in the fediverse and Tusky can only show you posts it gets from your homeserver. Clicking on the message will take you to this other server and you will be able to see all public posts of the user there.
+This happens when you are viewing profiles on servers other than your home server. Your homeserver can't know all posts of all users in the Fediverse and Tusky can only show you posts it gets from your home server. Clicking on the message will take you to this other server and you will be able to see all public posts of the user there.
 
 ## Filters
 
