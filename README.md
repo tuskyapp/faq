@@ -100,12 +100,12 @@ You can adjust the order of tabs on this screen too.
 
 - Open the three-dot-menu on any post not in your display language. Choose "translate".
 
-## Why can't I see the "translate" option on posts?
+## Why can't I find the "translate" option on posts?
 
 Tusky supports translating posts via the connected Mastodon server since version 25. If the option doesn't show up it can have several reasons:
 
 - You are not using Tusky 25 or later
-- Your server does not support translation. If you also can't translate any posts in the web interface, this is the most likely reason. (Tusky uses the `configuration.translation.enabled` attribute of the `/api/v2/instance` endpoint to detect server support.)
+- Your server does not support translation. If you also can't translate any posts in the web interface, this is the most likely reason. (Tusky uses the `configuration.translation.enabled` attribute of the `/api/v2/instance` endpoint to detect server support. You can also check that attribute manually by visiting `https://<your.instance>/api/v2/instance` in a browser.)
 - The post is already in your display language (or wrongly tagged as such by the author).
 
 ## Posting
