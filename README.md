@@ -1,3 +1,7 @@
+
+> [!WARNING]  
+> This repository is deprecated. The frequently asked questions are now [part of our homepage](https://tusky.app/faq/). 
+
 # Tusky Frequently Asked Questions
 
 ## Installing Tusky
